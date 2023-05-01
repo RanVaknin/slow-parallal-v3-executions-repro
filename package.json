@@ -1,0 +1,25 @@
+{
+  "name": "slow-parallal-v3-executions-repro",
+  "version": "1.0.0",
+  "description": "Reproduction for https://github.com/aws/aws-sdk-js-v3/issues/3560",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RanVaknin/slow-parallal-v3-executions-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RanVaknin/slow-parallal-v3-executions-repro/issues"
+  },
+  "homepage": "https://github.com/RanVaknin/slow-parallal-v3-executions-repro#readme",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.321.1",
+    "aws-sdk": "^2.1368.0"
+  }
+}
